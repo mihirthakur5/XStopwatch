@@ -36,7 +36,7 @@ function App() {
   return (
     <div className={styles.container}>
       <h1>Stopwatch</h1>
-      <p>Timer: {formatTime(timer)}</p>
+      <p>Time: {formatTime(timer)}</p>
       <button onClick={action}>{isRunning ? "Stop" : "Start"}</button>
       <button onClick={reset}>Reset</button>
     </div>
