@@ -21,7 +21,7 @@ function App() {
   const formatTime = (secs) => {
     const mins = Math.floor(secs / 60);
     const remainingSecs = secs % 60;
-    return `${mins}: ${remainingSecs < 10 ? "0" : ""}${remainingSecs}`;
+    return `${mins}:${remainingSecs < 10 ? "0" : ""}${remainingSecs}`;
   };
 
   const action = () => {
